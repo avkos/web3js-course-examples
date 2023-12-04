@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Page Title</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/web3/4.2.2/web3.min.js" type="application/javascript"></script>
+<body>
+
+<script>
+	const web3 = new Web3('http://127.0.0.1:8545');
+	const test = async () => {
+		// web3.eth.accounts.wallet.create(5);
+		// console.log('web3.eth.accounts.wallet', web3.eth.accounts.wallet)
+		// web3.eth.accounts.wallet.save('123456')
+
+		await web3.eth.accounts.wallet.load('123456')
+		console.log('web3.eth.accounts.wallet', web3.eth.accounts.wallet)
+
+
+	}
+	test().catch(console.error)
+</script>
+
+</body>
+</html>
+
