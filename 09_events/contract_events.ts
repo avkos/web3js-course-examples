@@ -1,5 +1,5 @@
 import {Web3} from "web3";
-import {abi} from "../8_contract/contractData";
+import {abi} from "../08_contract/contractData";
 import {ALL_EVENTS} from "web3-eth";
 
 const contractAddress = "0x6cf14c3BE1514b3437fAc4fE7eB6A17c9C369449";

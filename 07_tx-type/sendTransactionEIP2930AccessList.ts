@@ -1,5 +1,5 @@
 import {Web3} from 'web3';
-import {GreeterAbi, GreeterBytecode} from '../6_web3-eth/fixture/Greeter';
+import {GreeterAbi, GreeterBytecode} from '../06_web3-eth/fixture/Greeter';
 
 const web3 = new Web3('http://localhost:8545');
 
